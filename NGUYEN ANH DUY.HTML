@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nguyễn Anh Duy</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+
+        /* Khung chính */
+        .container {
+            width: 900px;
+            margin: 20px auto;
+            background-color: white;
+        }
+
+        /* Banner */
+        .banner {
+            background-image: url("https://images.unsplash.com/photo-1592280771190-3e2e4d571952");
+            background-size: cover;
+            background-position: center;
+            height: 230px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .banner h1 {
+            color: yellow;
+            font-size: 38px;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        /* Nội dung */
+        .content {
+            padding: 15px;
+        }
+
+        /* Khung */
+        .box {
+            border: 1px solid black;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        /* Thông tin */
+        .info {
+            display: flex;
+        }
+
+        /* Ảnh */
+        .avatar {
+            width: 140px;
+            height: 140px;
+            border: 1px dashed gray;
+            margin-right: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Tiêu đề */
+        h3 {
+            color: blue;
+        }
+
+        /* Nội dung chữ */
+        p {
+            color: #333;
+        }
+
+        li {
+            list-style: none;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            color: #444;
+        }
+
+        /* Ảnh trong sở thích */
+        li img {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="banner">
+            <h1>Nguyễn Anh Duy</h1>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="info">
+                    <div class="avatar">Ảnh</div>
+                    <div>
+                        <h3>Thông tin cá nhân</h3>
+                        <p>Họ tên: Nguyễn Anh Duy</p>
+                        <p>Lớp: 12A6</p>
+                        <p>Trường: THPT S1 Nguyễn Huệ</p>
+                        <p>Ngày sinh: 07/11/2008</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Sở thích</h3>
+                <ul>
+                    <li>
+                        <img src="https://cdn-icons-png.flaticon.com/512/727/727218.png" width="30">
+                        Nghe nhạc
+                    </li>
+                    <li>
+                        <img src="https://cdn-icons-png.flaticon.com/512/857/857455.png" width="30">
+                        Chơi thể thao
+                    </li>
+                    <li>
+                        <img src="https://cdn-icons-png.flaticon.com/512/744/744922.png" width="30">
+                        Xem phim
+                    </li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <h3>Liên hệ</h3>
+                <p>Email: nhoc.anhduy2008@gmail.com</p>
+                <p>Facebook: Anh Duy</p>
+                <p>SĐT: 0962769540</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
